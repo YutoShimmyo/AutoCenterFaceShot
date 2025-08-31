@@ -11,5 +11,29 @@
         android:layout_height="match_parent"
         android:keepScreenOn="true" />
 
-</FrameLayout>
+    <!-- Center guideline overlay -->
+    <View
+        android:id="@+id/centerLine"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#80FFFFFF" />
 
+    <!-- Status text overlay -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:shadowColor="#80000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:background="#40000000" />
+
+</FrameLayout>
